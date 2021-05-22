@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* btn properties */
+.btn {
+  width: 4rem;
+  height: 4rem;
+  margin: 0.2rem;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+
+.btn-dark {
+  background: #414040;
+}
+
+.btn-warning {
+  background: #ff9500;
+}
+
+.btn-light {
+  background: #d4d4d2;
+}
+
+/* calculator components */
+#calc-body {
+  position: relative;
+  background: #1c1c1c;
+  width: 20rem;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 10px 10px 10px grey;
+}
+
+#screen {
+  position: relative;
+  background: white;
+  padding: 0.8rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  text-align: right;
+  font-size: 1.8rem;
+}
+
+#brand {
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+#keypad {
+  position: relative;
+  padding: 0.2rem;
+}
