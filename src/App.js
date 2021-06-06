@@ -47,7 +47,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container" id="calc-body">
+      <div className="calc-body container">
         <Screen value={this.state.value} />
         <Brand brandName={this.state.brandName} />
         <Keypad onClick={this.onClick} />

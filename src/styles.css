@@ -25,7 +25,7 @@
 }
 
 /* calculator components */
-#calc-body {
+.calc-body {
   position: relative;
   background: #1c1c1c;
   width: 20rem;
@@ -35,7 +35,7 @@
   box-shadow: 10px 10px 10px grey;
 }
 
-#screen {
+.screen {
   position: relative;
   background: white;
   padding: 0.8rem;
@@ -45,7 +45,7 @@
   font-size: 1.8rem;
 }
 
-#brand {
+.brand {
   position: relative;
   color: white;
   text-align: center;
@@ -54,7 +54,7 @@
   font-weight: bold;
 }
 
-#keypad {
+.keypad {
   position: relative;
   padding: 0.2rem;
 }
